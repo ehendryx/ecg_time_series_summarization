@@ -39,7 +39,7 @@ test_labels = data['class.annot.test'].to_numpy()
 # ------------------------------------------------------------------
 #           Load Saved Model Weights  ------------------------------
 # ------------------------------------------------------------------
-new_vae = keras.models.load_model("src/vae/weights/brno_cnnvae_106/106.keras", compile=False)
+new_vae = keras.models.load_model("noise_and_arrhythmia_identification/noise/src/vae/weights/brno_cnnvae_106/106.keras", compile=False)
 
 
 # ------------------------------------------------------------------
